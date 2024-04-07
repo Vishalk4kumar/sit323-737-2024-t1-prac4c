@@ -1,0 +1,18 @@
+{"level":"info","message":"GET /exponentiate?num1=5&num2=2","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input. Please provide valid numbers.","service":"calculator-microservice"}
+{"level":"info","message":"GET /exponentiate?base=5&exponent=2","service":"calculator-microservice"}
+{"level":"info","message":"New exponentiation operation requested: 5 ^ 2","service":"calculator-microservice"}
+{"level":"info","message":"GET /sqrt?number=16","service":"calculator-microservice"}
+{"level":"info","message":"New square root operation requested: √16","service":"calculator-microservice"}
+{"level":"info","message":"GET /sqrt?number=-9","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input. Please provide a non-negative number.","service":"calculator-microservice"}
+{"level":"info","message":"GET /exponentiate?base=5&exponent=2","service":"calculator-microservice"}
+{"level":"info","message":"New exponentiation operation requested: 5 ^ 2","service":"calculator-microservice"}
+{"level":"info","message":"GET /exponentiate?","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input. Please provide valid numbers.","service":"calculator-microservice"}
+{"level":"info","message":"GET /exponentiate","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input. Please provide valid numbers.","service":"calculator-microservice"}
+{"level":"info","message":"GET /modulo?dividend=19&divisor=5","service":"calculator-microservice"}
+{"level":"info","message":"New modulo operation requested: 19 % 5","service":"calculator-microservice"}
+{"level":"info","message":"GET /modulo?dividend=19&divisor=0","service":"calculator-microservice"}
+{"level":"error","message":"Invalid input. Please provide valid numbers and ensure the divisor is non-zero.","service":"calculator-microservice"}
